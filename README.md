@@ -30,7 +30,9 @@ En simpel mobilapp lavet i React Native (Expo), hvor man kan holde styr på sin 
 
 ## Demovideo
 
-[Link til demovideo indsættes her]
+Se demovideoen her: https://github.com/Awaisfazil/Indkobsliste/issues/1
+
+Videoen viser en gennemgang af appen: listen med varer, hvordan man tilføjer en ny vare, og hvordan man ser detaljer om en vare.
 
 ## Struktur
 
