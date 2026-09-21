@@ -1,6 +1,5 @@
-// styles.js indeholder al styling for appen.
-// Skærmene importerer herfra, så tingene ser ens ud,
-// og så man kun skal rette ét sted, hvis noget skal ændres.
+// styles.js indeholder alt styling for appen.
+// Skærmene importerer stylesne herfra, så tingene ser ens ud og så man kun skal rette ét sted, hvis noget skal ændres.
 
 import { StyleSheet } from 'react-native'
 
