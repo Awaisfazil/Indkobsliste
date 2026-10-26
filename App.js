@@ -6,7 +6,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-import ListeScreen from './screens/ListeScreen';
+import ListeScreen from './screens/ListeScreen'; 
 import TilfojScreen from './screens/TilfojScreen';
 import DetaljerScreen from './screens/DetaljerScreen';
 import HistorikScreen from './screens/HistorikScreen';

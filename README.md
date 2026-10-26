@@ -1,6 +1,6 @@
 # Indkøbsliste-app
 
-En mobilapp lavet i React Native (Expo), hvor man kan holde styr på sin indkøbsliste. Appen er lavet som en del af godkendelsesopgaverne på CBS (Innovation og teknologi).
+En mobilapp lavet i React Native (Expo), hvor man kan holde styr på sin indkøbsliste. Appen er lavet som en del af godkendelsesopgave 2.
 
 Appen er udviklet i to iterationer. Anden iteration bygger videre på den feedback og de refleksioner, der kom ud af første runde brugerinddragelse.
 
@@ -61,8 +61,3 @@ screens/
   TilfojScreen.js     // Formular til at tilføje en ny vare
   HistorikScreen.js  // Viser de købte varer
   DetaljerScreen.js  // Detaljer om én vare med knapper til købt og slet
-```
-
-## Hvem har kodet hvad
-
-Opgaven er løst individuelt. Al kode i repositoryet er skrevet af Awais Fazil.
