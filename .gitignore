@@ -42,3 +42,7 @@ yarn-error.*
 
 # Zip-fil til aflevering (skal ikke på GitHub)
 Indkobsliste.zip
+
+# Gammel kopi af projektet der ved et uheld endte inde i mappen
+Indkobsliste/
+package.json.backup-sdk57
