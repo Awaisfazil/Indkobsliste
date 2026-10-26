@@ -51,8 +51,6 @@ Se demovideoen for anden iteration her: https://github.com/Awaisfazil/Indkobslis
 
 Videoen viser søgefunktionen, hvordan man markérer en vare som købt, Historik-skærmen, og at listen stadig er der efter appen har været lukket helt ned.
 
-Demovideo fra første iteration: https://github.com/Awaisfazil/Indkobsliste/issues/1
-
 ## Struktur
 
 ```
