@@ -1,4 +1,4 @@
-// HistorikScreen er den nye skærm fra anden iteration. Den viser de varer man allerede har købt,
+// HistorikScreen er den nye skærm fra godkendelsesopgave 2. Den viser de varer man allerede har købt,
 // så man kan se hvad man plejer at handle. Herfra kan man lægge en vare tilbage på listen eller slette den helt.
 
 import React from 'react'

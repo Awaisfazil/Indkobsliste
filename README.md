@@ -2,7 +2,7 @@
 
 En mobilapp lavet i React Native (Expo), hvor man kan holde styr på sin indkøbsliste. Appen er lavet som en del af godkendelsesopgave 2.
 
-Appen er udviklet i to iterationer. Anden iteration bygger videre på den feedback og de refleksioner, der kom ud af første runde brugerinddragelse.
+Appen er udviklet i to omgange. Godkendelsesopgave 2 bygger videre på den feedback og de refleksioner, der kom ud af første runde brugerinddragelse.
 
 ## Hvad kan appen?
 
@@ -13,7 +13,7 @@ Appen er udviklet i to iterationer. Anden iteration bygger videre på den feedba
 
 Listen bliver gemt på telefonen, så varerne stadig er der, næste gang appen åbnes.
 
-## Nyt i anden iteration
+## Nyt i godkendelsesopgave 2
 
 | Ændring | Hvad det gør |
 |---|---|

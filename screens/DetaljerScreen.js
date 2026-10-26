@@ -1,5 +1,5 @@
 // DetaljerScreen viser den vare, man har trykket på ude fra indkøbslisten på ListeScreen.
-// Fra anden iteration kan man også markere varen som købt eller slette den herfra.
+// Fra godkendelsesopgave 2 kan man også markere varen som købt eller slette den herfra.
 
 import React from 'react'
 import { Button, Text, View } from 'react-native'
@@ -50,7 +50,7 @@ export default function DetaljerScreen({ route, navigation, varer, skiftKoebt, s
             <Text style={styles.detaljeNavn}>Vare: {vare.navn}</Text>
             <Text style={styles.detaljeAntal}>Mængde: {vare.antal}</Text>
 
-            {/* De to nye knapper fra anden iteration. */}
+            {/* De to nye knapper fra godkendelsesopgave 2. */}
             <View style={styles.knapAfstand}>
                 <Button title="Markér som købt" onPress={markerSomKoebt} />
             </View>
