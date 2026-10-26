@@ -46,3 +46,9 @@ Indkobsliste.zip
 # Gammel kopi af projektet der ved et uheld endte inde i mappen
 Indkobsliste/
 package.json.backup-sdk57
+
+# Videofiler (skal ikke i repoet)
+*.MP4
+*.mp4
+*.mov
+*.MOV
