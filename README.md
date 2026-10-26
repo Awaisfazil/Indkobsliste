@@ -47,7 +47,7 @@ Listen bliver gemt på telefonen, så varerne stadig er der, næste gang appen �
 
 ## Demovideo
 
-Se demovideoen for anden iteration her: https://github.com/Awaisfazil/Indkobsliste/issues/3
+Se demovideoen her: https://github.com/Awaisfazil/Indkobsliste/issues/3
 
 Videoen viser søgefunktionen, hvordan man markérer en vare som købt, Historik-skærmen, og at listen stadig er der efter appen har været lukket helt ned.
 
