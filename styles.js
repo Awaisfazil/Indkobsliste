@@ -67,6 +67,18 @@ const styles = StyleSheet.create({
         marginBottom: 40,
     },
 
+    // Afstand mellem de tre knapper på Detaljer-skærmen
+    knapAfstand: {
+        marginBottom: 12,
+    },
+
+    // De to knapper der står ved siden af hinanden i Historik-listen
+    knapRaekke: {
+        flexDirection: 'row',
+        gap: 10,
+        marginTop: 8,
+    },
+
     besked: {
         fontSize: 18,
         textAlign: 'center',

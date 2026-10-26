@@ -1,18 +1,35 @@
 # Indkøbsliste-app
 
-En simpel mobilapp lavet i React Native (Expo), hvor man kan holde styr på sin indkøbsliste. Appen er lavet som en del af opgaven "Godkendelsesopgave 1: Brugerinddragelse" på CBS (Innovation og teknologi).
+En mobilapp lavet i React Native (Expo), hvor man kan holde styr på sin indkøbsliste. Appen er lavet som en del af godkendelsesopgaverne på CBS (Innovation og teknologi).
+
+Appen er udviklet i to iterationer. Anden iteration bygger videre på den feedback og de refleksioner, der kom ud af første runde brugerinddragelse.
 
 ## Hvad kan appen?
 
-- **Liste**-skærmen viser alle varer på indkøbslisten
-- **Tilføj**-skærmen bruges til at tilføje en ny vare (navn + antal)
-- **Detaljer**-skærmen viser mere info om en enkelt vare, når man trykker på den i listen
+- **Liste** — viser de varer, der stadig skal købes, og har et søgefelt til at finde en bestemt vare
+- **Tilføj** — opretter en ny vare med navn og mængde
+- **Historik** — viser de varer, man allerede har købt, og man kan lægge dem tilbage på listen eller slette dem
+- **Detaljer** — viser én vare og giver mulighed for at markere den som købt eller slette den
+
+Listen bliver gemt på telefonen, så varerne stadig er der, næste gang appen åbnes.
+
+## Nyt i anden iteration
+
+| Ændring | Hvad det gør |
+|---|---|
+| Søgefunktion | Søgefelt øverst på Liste-skærmen, der filtrerer varerne mens man taster |
+| Lagring af data | Listen gemmes med AsyncStorage, så den huskes efter appen lukkes |
+| Historik-skærm | Ny skærm med de varer, man har købt |
+| Markér som købt | Ny knap, der flytter en vare fra listen over i historikken |
+| Slet vare | Ny knap, der fjerner en vare helt |
+| Læg tilbage | Ny knap i historikken, der sætter en købt vare tilbage på listen |
 
 ## Teknologier
 
 - React Native
 - Expo
-- React Navigation (bundnavigation mellem de tre skærme)
+- React Navigation (bundnavigation mellem de fire skærme)
+- AsyncStorage (lokal lagring på telefonen)
 
 ## Sådan kører du appen selv
 
@@ -30,17 +47,22 @@ En simpel mobilapp lavet i React Native (Expo), hvor man kan holde styr på sin 
 
 ## Demovideo
 
-Se demovideoen her: https://github.com/Awaisfazil/Indkobsliste/issues/1
+[Link til demovideo for anden iteration indsættes her]
 
-Videoen viser en gennemgang af appen: listen med varer, hvordan man tilføjer en ny vare, og hvordan man ser detaljer om en vare.
+Demovideo fra første iteration: https://github.com/Awaisfazil/Indkobsliste/issues/1
 
 ## Struktur
 
 ```
-App.js              // Hovedfil - holder styr på listen af varer og navigation
-styles.js           // Alt styling samlet ét sted
+App.js              // Startpunkt - holder listen af varer, lagringen og navigationen
+styles.js           // Al styling samlet ét sted
 screens/
-  ListeScreen.js     // Viser indkøbslisten
+  ListeScreen.js     // Viser indkøbslisten og søgefeltet
   TilfojScreen.js     // Formular til at tilføje en ny vare
-  DetaljerScreen.js  // Detaljer om én vare
+  HistorikScreen.js  // Viser de købte varer
+  DetaljerScreen.js  // Detaljer om én vare med knapper til købt og slet
 ```
+
+## Hvem har kodet hvad
+
+Opgaven er løst individuelt. Al kode i repositoryet er skrevet af Awais Fazil.
